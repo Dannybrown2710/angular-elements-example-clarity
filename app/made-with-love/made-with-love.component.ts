@@ -8,7 +8,7 @@ import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
     </ng-template>
      
     <span [style.font-size.em]="size">
-      Made with <span [style.color]="color">♥</span> by 
+      Click the link <span [style.color]="color"></span> 
       <ng-container *ngIf="url && url.length > 0; else noUrl">
         <a (click)='a()'>{{ name }}</a>
       </ng-container>

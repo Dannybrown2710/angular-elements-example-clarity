@@ -60,7 +60,7 @@ export class MadeWithLoveComponent implements OnInit {
   }
 
   a(){
-    console.log('hi', this.pro)
+    console.log('data from web component', this.pro)
     this.use.next('hey'+this.pro);
   }
 }
